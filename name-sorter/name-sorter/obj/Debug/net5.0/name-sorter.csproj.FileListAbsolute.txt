@@ -1,0 +1,16 @@
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\obj\Debug\net5.0\name-sorter.csproj.AssemblyReference.cache
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\obj\Debug\net5.0\name-sorter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\obj\Debug\net5.0\name-sorter.AssemblyInfoInputs.cache
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\obj\Debug\net5.0\name-sorter.AssemblyInfo.cs
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\obj\Debug\net5.0\name-sorter.csproj.CoreCompileInputs.cache
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\bin\Debug\net5.0\name-sorter.exe
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\bin\Debug\net5.0\name-sorter.deps.json
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\bin\Debug\net5.0\name-sorter.runtimeconfig.json
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\bin\Debug\net5.0\name-sorter.runtimeconfig.dev.json
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\bin\Debug\net5.0\name-sorter.dll
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\bin\Debug\net5.0\ref\name-sorter.dll
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\bin\Debug\net5.0\name-sorter.pdb
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\obj\Debug\net5.0\name-sorter.dll
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\obj\Debug\net5.0\ref\name-sorter.dll
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\obj\Debug\net5.0\name-sorter.pdb
+D:\Jose\Trabajo\ProyectosNet\name-sorter\name-sorter\name-sorter\obj\Debug\net5.0\name-sorter.genruntimeconfig.cache
