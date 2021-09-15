@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace name_sorter
 {
@@ -12,16 +13,34 @@ namespace name_sorter
             string pathIn = @"C:\\temp\unsorted-names-list.txt";
             string pathOut = @"C:\\temp\sorted-names-list.txt";
             List<string> dataOut = Read(pathIn);
-            dataOut.Sort();
+            List<string> dataOutFinal = new List<string>();
+            List<Person> dataOrder = new List<Person>();
+            int dataOutRev;
+
             Console.WriteLine("Data sort!");
+
+            string lineatemp = "";
             foreach (string linea in dataOut)
             {
-                //Console.WriteLine("Starting unsorted-names-list!");
-                Console.WriteLine(linea);
-                //listBox1.Items.Add(linea);
+                Person person = new Person();
+                lineatemp = linea.Replace(" ", "-");
+                dataOutRev = lineatemp.LastIndexOf("-");
+                person.lastName = lineatemp.Substring(dataOutRev + 1);
+                person.line = linea;
+                person.lastIndex = dataOutRev;
+
+                dataOrder.Add(person);
             }
-            CreateOut(pathOut, dataOut);
-        }
+            //order by lastName
+            foreach (Person lineOut in dataOrder.OrderBy(person => person.lastName))
+            {
+                Console.WriteLine(lineOut.line);
+                dataOutFinal.Add(lineOut.line);
+            }
+
+            //create a file final    
+            CreateOut(pathOut, dataOutFinal);
+            }
         public static List<string> Read(string pathIn)
         {
             List<string> data = new List<string>();
@@ -39,7 +58,6 @@ namespace name_sorter
         {
             try
             {
-                data.Sort();
                 if (File.Exists(path)) {
                     File.Delete(path);
                 }
@@ -56,7 +74,11 @@ namespace name_sorter
             catch (Exception ex) {
                 Console.WriteLine(ex.Message.ToString());
             }
-            
+        }
+        public class Person{
+            public int lastIndex { get; set; }
+            public string line { get; set; }
+            public string lastName { get; set; }
             
         }
     }
