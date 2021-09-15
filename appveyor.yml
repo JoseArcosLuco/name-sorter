@@ -4,4 +4,4 @@ before build:
  
  build:
   verbosity: minimal
-  publish_wap: tru
+  publish_wap: true
